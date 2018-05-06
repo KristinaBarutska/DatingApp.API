@@ -20,7 +20,7 @@ namespace DatingApp.API.Data
             if (user==null)
             return null;
             
-            if(!VerifyPasswordHash(password, user.PasswordHash,user.PasswordSalt)){
+            if(!VerifyPasswordHash(password, user.PasswordHash, user.PasswordSalt)){
                 return null;
             }
 
@@ -44,7 +44,7 @@ namespace DatingApp.API.Data
         public async Task<User> Register(User user, string password)
         {
             byte[] passwordHash, passwordSalt;
-            CreatePasswordHash(password, out passwordHash,out passwordSalt);
+            CreatePasswordHash(password, out passwordHash, out passwordSalt);
             user.PasswordHash = passwordHash;
             user.PasswordSalt = passwordSalt;
 
