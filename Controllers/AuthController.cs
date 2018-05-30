@@ -51,8 +51,7 @@ namespace DatingApp.API.Controllers
         {
             var userFromRepo= await _repo.Login(userForLoginDto.Username.ToLower(), userForLoginDto.Password);
             if (userFromRepo==null)
-                return Unauthorized();
-            //return Ok(userFromRepo.Username);
+                return Unauthorized();          
 
             //generate token   
             var tokenHandler = new JwtSecurityTokenHandler();
@@ -68,7 +67,7 @@ namespace DatingApp.API.Controllers
                 SigningCredentials = new SigningCredentials(signingKey, 
                     SecurityAlgorithms.HmacSha512Signature)
             };
-            //return Ok(tokenDescriptor.Subject.Name.ToString());
+            
             try
             {
             var token = tokenHandler.CreateToken(tokenDescriptor);  
@@ -77,7 +76,7 @@ namespace DatingApp.API.Controllers
             return Ok(new {tokenString});
             }
             catch(SystemException exception){
-                return Ok(exception.ToString());
+                return BadRequest(exception.ToString());
             }
             
             
