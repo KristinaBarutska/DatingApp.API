@@ -8,3 +8,14 @@ C:\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.0\DatingApp.API.AssemblyInfoInp
 C:\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.0\DatingApp.API.AssemblyInfo.cs
 C:\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.0\DatingApp.API.dll
 C:\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.0\DatingApp.API.pdb
+C:\Education\DatingApp.API\bin\Debug\netcoreapp2.0\DatingApp.API.deps.json
+C:\Education\DatingApp.API\bin\Debug\netcoreapp2.0\DatingApp.API.runtimeconfig.json
+C:\Education\DatingApp.API\bin\Debug\netcoreapp2.0\DatingApp.API.runtimeconfig.dev.json
+C:\Education\DatingApp.API\bin\Debug\netcoreapp2.0\DatingApp.API.dll
+C:\Education\DatingApp.API\bin\Debug\netcoreapp2.0\DatingApp.API.pdb
+C:\Education\DatingApp.API\obj\Debug\netcoreapp2.0\DatingApp.API.csprojAssemblyReference.cache
+C:\Education\DatingApp.API\obj\Debug\netcoreapp2.0\DatingApp.API.csproj.CoreCompileInputs.cache
+C:\Education\DatingApp.API\obj\Debug\netcoreapp2.0\DatingApp.API.AssemblyInfoInputs.cache
+C:\Education\DatingApp.API\obj\Debug\netcoreapp2.0\DatingApp.API.AssemblyInfo.cs
+C:\Education\DatingApp.API\obj\Debug\netcoreapp2.0\DatingApp.API.dll
+C:\Education\DatingApp.API\obj\Debug\netcoreapp2.0\DatingApp.API.pdb

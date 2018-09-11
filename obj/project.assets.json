@@ -12537,28 +12537,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Krisi\\.nuget\\packages\\": {},
+    "C:\\Users\\NP\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+      "projectUniqueName": "C:\\Education\\DatingApp.API\\DatingApp.API.csproj",
       "projectName": "DatingApp.API",
-      "projectPath": "C:\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
-      "packagesPath": "C:\\Users\\Krisi\\.nuget\\packages\\",
-      "outputPath": "C:\\DatingApp\\DatingApp.API\\obj\\",
+      "projectPath": "C:\\Education\\DatingApp.API\\DatingApp.API.csproj",
+      "packagesPath": "C:\\Users\\NP\\.nuget\\packages\\",
+      "outputPath": "C:\\Education\\DatingApp.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Krisi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\NP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
